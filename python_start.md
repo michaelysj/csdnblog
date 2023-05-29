@@ -15,3 +15,7 @@ turtle.done()
 ```
 ## 如下图所示
 ![同心圆](images/tongxinyuan.png)
+* [Python Turtle库详解](https://blog.csdn.net/qq_37806690/article/details/123135451)
+* [python--turtle库（纯干货教程)](https://zhuanlan.zhihu.com/p/571871736)
+* [Python绘图Turtle库详解](https://blog.csdn.net/zengxiantao1994/article/details/76588580/)
+* [奥运五环](https://zhuanlan.zhihu.com/p/515839216)
