@@ -5,6 +5,17 @@ Git常用命令总结
 >**git diff .** 
 >**git --ignore-space-change --ignore-all-space .** //忽略空格的改动，包括格式的改动，比如DOS/UNIX的区别
 
+# 撤销修改有几种类型
+## push后的撤销，如果是临时的branch，还没有pull request的，可以删除临时branch，重新拉一个branch，如果已经merge到其它分支了，这种情况下唯一的办法就是重新提交代码，把之前的改动拖动回退，别无它法
+## 对于commit之后还没有push的改动，使用git reset --soft HEAD^或者git reset --hard HEAD^，详见下面的解释
+## 对于add或者是staged的修改，可以使用git restore --staged来从暂存区回退到工作区
+## 对于还在工作区没有到暂存区的，想回退，可以直接git checkout来，不过要小心所有的修改都会被清空
+
+# add
+* 把修改从工作区提交到暂存区
+* git add . 把当前目录下所有的改动，包括modified,new file都会被提交到暂存区
+* 如果只想提交修改过的文件，可以用git add -u .
+
 # commit
 - git commit之后想撤销
 > **git reset --soft HEAD^**
