@@ -4,8 +4,6 @@
 * 《C++ Primer 5th》(盼姐推荐，20230606)
   * 20230619 开始
   * 20230619 P32
-* 《成长第二曲线》
-  * 20230618 开始
 
 # 左言推荐的读书方法，抄书，做笔记
 
@@ -19,6 +17,7 @@
 * 《重构》
 
 # 读过的书
+* 20230619 《成长第二曲线》
 * 20230617 《程序员的自我修养——链接、装载与库》
 * 20230602 《C++标准库第二版》大概过了一遍15章之前的内容
 * 20230525 《被讨厌的勇气》
@@ -28,6 +27,7 @@
 * 20230320 《程序员修炼之道》
 
 # C++编程
+* 20230625 [跟我学c++中级篇——省略号的巧妙应用](https://mp.weixin.qq.com/s/8x5NRfq6F5yIaHfAf0lGVQ)
 * 20230605 [C++模板的特化(specialization)和偏特化(partial specialization)](https://blog.csdn.net/weixin_43744293/article/details/123919688)
 * 20230525 [C++11之 std::bind | std::function](https://blog.csdn.net/weixin_36750623/article/details/84841316)
 
