@@ -34,6 +34,21 @@ make && make install
 --enable-multilib
 ```
 
+```
+./configure --prefix=/usr/local/gcc10 \
+--with-gmp=/usr/local/gmp/ \
+--with-mpfr=/usr/local/mpfr/ \
+--with-mpc=/usr/local/mpc/ \
+--enable-languages=c,c++ \
+--with-system-zlib \
+--disable-multilib \
+--enable-threads=posix
+```
+
+```
+./configure --disable-checking --enable-languages=c,c++ --disable-multilib --prefix=/home/yangs/gcc-10.4.0 --enable-threads=posix
+```
+
 
 ## install network ssh
 > sudo apt install net-tools
